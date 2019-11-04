@@ -1,0 +1,17 @@
+name: Main workflow
+on: [push]
+jobs:
+  run:
+    name: Run
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1.1
+
+      - name: Set Node.js 10x
+        uses: actions/setup-node@master
+        with:
+          version: 10.x
+
+      - name: NPM install
+        run: npm install
