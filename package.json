@@ -1,0 +1,32 @@
+{
+    "name": "action-setup-phalcon",
+    "version": "1.0.0",
+    "private": true,
+    "description": "setup phalcon framework action",
+    "main": "lib/setup-phalcon.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jeckerson/action-setup-phalcon"
+    },
+    "keywords": [
+        "actions",
+        "node",
+        "phalcon",
+        "setup"
+    ],
+    "author": "Phalcom Team",
+    "license": "MIT",
+    "dependencies": {
+        "@actions/core": "^1.0.0",
+        "@actions/exec": "^1.0.0",
+        "@actions/io": "^1.0.0",
+        "@actions/tool-cache": "^1.0.0",
+        "semver": "^6.1.1"
+    },
+    "devDependencies": {
+        "typescript": "^3.5.1"
+    }
+}

@@ -1,0 +1,10 @@
+name: "Setup PHP Phalcon environment"
+description: "Setup your runner with PHP Phalcon Framework"
+author: "Phalcon Team"
+inputs:
+  phalcon-version:
+    description: 'The Phalcon version to build.'
+    required: false
+runs:
+  using: 'node12'
+  main: 'lib/setup-phalcon.js'
